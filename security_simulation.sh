@@ -7,5 +7,5 @@ then
     echo "Invalid syntax."
     echo "Usage: $0 status"
 else
-    echo "Agent is UP and RUNNING. (The Cloud Bootcamp - Security Agent Simulation)"
+    echo "Agent is UP and RUNNING. (Lauro M. - Security Agent Simulation)"
 fi

@@ -7,4 +7,4 @@ echo "Security agent installation in progress..."
 sudo chmod +x /usr/bin/security_simulation
 sleep 30
 echo "Security agent installation completed."
-sudo /usr/bin/security_agent status
+sudo /usr/bin/security_simulation status

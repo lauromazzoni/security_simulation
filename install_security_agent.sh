@@ -4,7 +4,7 @@
 echo "Downloading security agent..."
 sudo wget -q https://raw.githubusercontent.com/lauromazzoni/security_simulation/main/security_simulation.sh -P /usr/bin
 echo "Security agent installation in progress..."
-sudo chmod +x /usr/bin/security_agent
+sudo chmod +x /usr/bin/security_simulation
 sleep 30
 echo "Security agent installation completed."
 sudo /usr/bin/security_agent status

@@ -11,4 +11,4 @@ sleep 5
 echo "3"
 echo "Security agent installation completed."
 echo "4"
-sudo /usr/bin/security_agent status
+sudo /usr/bin/security_agent.sh status

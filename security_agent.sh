@@ -2,10 +2,10 @@
 # Created by The Cloud Bootcamp - Security Agent Simulation
 
 
-if [[ $1 != "status" ]]
+if [[ $1 = "status" ]]
 then
+    echo "Agent is UP and RUNNING. (Lauro M. - Security Agent Simulation)"
+else
     echo "Invalid syntax."
     echo "Usage: $0 status"
-else
-    echo "Agent is UP and RUNNING. (Lauro M. - Security Agent Simulation)"
 fi
